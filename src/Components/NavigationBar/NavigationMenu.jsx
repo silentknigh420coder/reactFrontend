@@ -31,7 +31,7 @@ function NavigationMenu() {
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-3">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="#">
+                    <Link className="navbar-brand" to="/home">
                         <img className='logos' width='30px' src="https://cdn-icons-png.flaticon.com/128/1828/1828231.png" alt="" srcset="" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,11 +46,11 @@ function NavigationMenu() {
                             </li>
                             {/* for the All Jobs */}
                             <li className="nav-item">
-                                <Link className="nav-link" to="#" onClick={(e) => handleItemClick(e, "All Jobs")} style={getActiveStyles("All Jobs")}>All Jobs</Link>
+                                <Link className="nav-link" to="/home" onClick={(e) => handleItemClick(e, "All Jobs")} style={getActiveStyles("All Jobs")}>All Jobs</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link" to="#" onClick={(e) => handleItemClick(e, "Courses")} style={getActiveStyles("Courses")}>Courses</Link>
+                                <Link className="nav-link" to="/home" onClick={(e) => handleItemClick(e, "Courses")} style={getActiveStyles("Courses")}>Courses</Link>
                             </li>
 
                             <li className="nav-item">
@@ -58,7 +58,7 @@ function NavigationMenu() {
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link" to="#" onClick={(e) => handleItemClick(e, "Blogs")} style={getActiveStyles("Blogs")}>Blogs</Link>
+                                <Link className="nav-link" to="/home" onClick={(e) => handleItemClick(e, "Blogs")} style={getActiveStyles("Blogs")}>Blogs</Link>
                             </li>
                         </ul>
                         <form className="d-flex">
