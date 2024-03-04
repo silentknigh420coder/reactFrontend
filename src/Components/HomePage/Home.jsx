@@ -11,11 +11,8 @@ function Home() {
         </div>
         <div class="carousel-inner">
   <div class="carousel-item active">
-    {/* <!-- Image 1 (for medium and large screens) --> */}
     <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/037/488/original/FP_Academy.jpeg" class="d-block w-100 d-md-block d-lg-block" alt="Image 1" />
-    {/* <!-- Image 2 (for small screens) --> */}
-    <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/037/489/original/FP_Academy_MB.jpeg?1687337973" class="d-none d-sm-block w-100" alt="Image 2" />
-  </div>
+     </div>
 </div>
 
 
